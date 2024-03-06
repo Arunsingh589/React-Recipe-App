@@ -1,70 +1,25 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. For images be use api (mealdb api)
+2. Go Free Api Meal.
+3. We Use js fetch method to call api.
+4. then use useEffect Hook to call api.
+5. and than pass all the data to the useState data which we already create.
+6. then we show all images be use map method than in map method be use img src to call the image path.
+7. and then we pass d as a argument than call image -(strMealThumb) is a image url path.
+8. then be work on slider be go google and search react slick slider.(npm i react-slick).
+9. Also install its css(npm install slick-carousel).
+// Import css files
+10. Then react slick home page than be use pause on hover and auto play slider.
+  than copy pause slider code and move map method on slider.
+  and remove div code.
+  Give style to Popular slider.
+11. Then be maintain our Trending Slider Just copy all code of popularslider and paste in trendingslider
+    but only diffrence is that be change pause slider code to auto paly code and change height width of 
+    all the code and style them.
+12. next be do if be click a perticular product than the perticular product show on a new page so doing that be install react-router dom and paste the home to inside router and create a new page receipeid to show that product based on their id.
+13. Then be use link tag to nevigate trending page and popularslider page to next page and simply give id in both pages.
+14. Then be also show our navbar and Trending page slider to receipeid page be simply import them.
+15. and next be use useParams to fetch data.
+16. and copy code on trending slider and some minor changes like index assign or little more
+17. After This we create a page of category to show indian american categroy food.
+18. After this we work on search bar so if be search a perticular product than a new page show to all product related to that search product so that is be create a new page searchelement and be use useNavigate to nevigate to serach item to that page.
+    
